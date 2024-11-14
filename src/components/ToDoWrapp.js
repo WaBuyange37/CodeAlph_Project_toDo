@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const ToDoWrapp = () => {
     // Step 1: Initialize state from localStorage
-    const [todos, setTodos] = useState(() => {cd 
+    const [todos, setTodos] = useState(() => { 
         const savedTodos = localStorage.getItem("todos");
         return savedTodos ? JSON.parse(savedTodos) : [];
     });

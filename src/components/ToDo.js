@@ -2,10 +2,8 @@ import React from 'react'
 import './todo.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen, faTrash } from '@fortawesome/free-solid-svg-icons';
-import EditToDoForm from './EditToDoForm';
-const saveData() {
-  localStorage.setItem("data", listContainer.innerHTML);
-}
+
+
 
 const ToDo = ({task, toggleComplete, deleteTodo, editTodo}) => {
   return (
