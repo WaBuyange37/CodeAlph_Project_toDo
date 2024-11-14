@@ -1,0 +1,27 @@
+.toDo{
+    background-color: #1ca;
+    width: 90%;
+    height: 50px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 25px;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+p{
+    font-size: 24px;
+    padding: 1px;
+    padding-left: 22px;
+    padding-right: 34px;
+    margin-right: 170px;
+    /*  */
+}
+.pa{
+    margin-left: 16px;
+}
+.completed{
+    text-decoration: line-through;
+    color: #1caf33;
+}

@@ -1,0 +1,19 @@
+.inputF{
+   
+}
+.irwinjizo{
+    height: 40px;
+    width: 97%;
+    gap: 2em;
+    border: none;
+    outline:none;
+    background-color: rgba(250, 174, 0, 0.2);
+    font-size: 32px;
+}
+.todo-btn{
+    background-color:#1ca;
+    height: 40px;
+    transform: translate(178px,-41px);
+    border-radius: 12px;
+    font-size: 32px;
+}

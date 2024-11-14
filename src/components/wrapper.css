@@ -1,0 +1,9 @@
+.todoWrapper{
+    background-color: cadetblue;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 500px;
+    transform: translate(350px,100px);
+}
